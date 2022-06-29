@@ -10,7 +10,7 @@ routes.get("/", (request, response) => {
 
 //Produto
 routes.post("/folha/cadastrar", new folhaController().cadastrar);
-routes.get("/folha/calcular", new folhaController().listar);
+
 
 
 
